@@ -1,0 +1,21 @@
+.add-todo {
+    &__form {
+        height: 60px;
+        border-top: 1px solid #ebebeb;
+        padding: 0 0 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__label {
+        font-size: 22px;
+    }
+
+    &__input {
+        display: block;
+        width: 100%;
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+}

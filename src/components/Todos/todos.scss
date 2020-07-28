@@ -1,0 +1,26 @@
+.todo__list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+
+    &-name {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 48px;
+    }
+
+    &-item {
+        padding: 10px 20px;
+        font-size: 24px;
+        cursor: pointer;
+
+        &:nth-child(2n) {
+            background-color: #ebebeb;
+        }
+
+        &--exist:hover {
+            text-decoration: line-through;
+        }
+    }
+
+}
